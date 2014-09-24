@@ -1,0 +1,9 @@
+*.log
+.idea/
+*.sublime-*
+
+node_modules/
+bower_components/
+
+results/*.*
+npm_debug.log

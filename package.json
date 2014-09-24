@@ -1,7 +1,7 @@
 {
   "name": "catcher",
   "version": "1.0.0",
-  "description": "Catcher is a local server or GAE server which Page posts test results to",
+  "description": "Catcher is an express server that collects POSTed test results and writes them to the local file system",
   "private": true,
   "scripts": {
     "start": "node app.js"
