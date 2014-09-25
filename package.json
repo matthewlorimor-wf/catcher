@@ -1,0 +1,23 @@
+{
+  "name": "catcher",
+  "version": "1.0.0",
+  "description": "Catcher is an express server that collects POSTed test results and writes them to the local file system",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "1.0.2",
+    "express": "4.3.0",
+    "ua-parser": "0.3.3",
+    "raw-body": "1.1.5",
+    "cors": "2.3.1",
+    "debug": "0.8.1",
+    "mkdirp": "0.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.0.17"
+  }
+}
